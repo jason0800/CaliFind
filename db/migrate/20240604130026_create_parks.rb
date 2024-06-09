@@ -4,6 +4,9 @@ class CreateParks < ActiveRecord::Migration[7.1]
       t.string :name
       t.string :location
       t.text :description
+      t.string :img_url
+      t.float :latitude
+      t.float :longitude
 
       t.timestamps
     end
