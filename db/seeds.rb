@@ -18,6 +18,8 @@ Park.create!(
   location: "888 Collins St, Docklands VIC 3008",
   description: "Dipping bars and pull-up bars. No rings.",
   img_url: "https://i0.wp.com/stadiumbase.com/wp-content/uploads/2020/04/Docklands-Outdoor-Gym2.jpg?fit=1200%2C675&ssl=1",
+  latitude: -37.820830,
+  longitude: 144.941111
 )
 
 Park.create!(
@@ -25,6 +27,8 @@ Park.create!(
   location: "255A Beaconsfield Parade, Middle Park VIC 3206",
   description: "Pull-up bar. No rings or dipping bars.",
   img_url: "https://www.melbourneplaygrounds.com.au/images/middle-park-beach-outdoor-gym-(middle-park).jpg",
+  latitude: -37.854055,
+  longitude: 144.961005
 )
 
 Park.create!(
@@ -32,6 +36,8 @@ Park.create!(
   location: "McConchie Reserve, Richmond, Melbourne",
   description: "Pull-up bar, dipping bars, monkey bars, and parallettes. No rings.",
   img_url: "https://hdp-au-prod-app-yrra-yoursay-files.s3.ap-southeast-2.amazonaws.com/1315/6024/8889/Fitness_multi_unit.JPG",
+  latitude: -37.832714,
+  longitude: 145.000430
 )
 
 Park.create!(
@@ -39,6 +45,8 @@ Park.create!(
   location: "Citizens Park, Richmond, Melbourne",
   description: "Pull-up bars, dipping bars, no rings.",
   img_url: "https://www.melbourneplaygrounds.com.au/images/citizens-park-outdoor-gym-(richmond).jpg",
+  latitude: -37.817284,
+  longitude: 145.000318
 )
 
 Park.create!(
@@ -46,6 +54,8 @@ Park.create!(
   location: "Ross Gregory Dr, St Kilda VIC 3182",
   description: "Pull-up bars, dipping bars.",
   img_url: "https://www.melbourneplaygrounds.com.au/images/albert-park-reserve-outdoor-gym-lake-circuit--chinup-bars.jpg",
+  latitude: -37.853247,
+  longitude: 144.977013
 )
 
 Park.create!(
@@ -61,7 +71,9 @@ Park.create!(
   name: "Eades Park Fitness Station",
   location: "Eades Park, West Melbourne VIC 3003",
   description: "Pull-up bars",
-  img_url: "https://www.melbourneplaygrounds.com.au/images/eades-place-park-outdoor-gym-(west-melbourne).jpg"
+  img_url: "https://www.melbourneplaygrounds.com.au/images/eades-place-park-outdoor-gym-(west-melbourne).jpg",
+  latitude: -37.807129,
+  longitude: 144.951772
 )
 
 puts "parks created"
