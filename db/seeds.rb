@@ -9,6 +9,8 @@ Park.create!(
   location: "University Oval, Carlton",
   description: "Dipping bars, pull-up bars, rings.",
   img_url: "https://scontent.fmel10-1.fna.fbcdn.net/v/t1.15752-9/448228157_1181397973048261_7568355013605414093_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=so09rLjReD4Q7kNvgEUjy0P&_nc_ht=scontent.fmel10-1.fna&oh=03_Q7cD1QHnQ1mrmUuh7zNby5nbu0Anv_pBWdIZOA7wW5auLgtDoA&oe=6694A2B1",
+  latitude: -37.794864084388344,
+  longitude: 144.9606324313499
 )
 
 Park.create!(
