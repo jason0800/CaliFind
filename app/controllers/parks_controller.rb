@@ -9,5 +9,11 @@ class ParksController < ApplicationController
 
   def show
     @park = Park.find(params[:id])
+
+    @marker = [{
+      lat: @park.latitude,
+      lng: @park.longitude,
+      info_window_html: render_to_string(partial: "info_window", locals: {park: @park})
+    }]
   end
 end
