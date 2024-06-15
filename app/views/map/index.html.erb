@@ -1,0 +1,14 @@
+<nav class="navbar">
+  <a href="/">
+    <%= image_tag "califindlogo.png", alt: 'califind logo', style: "width:170px; margin-left: 10px;" %>
+  </a>
+  <div class="nav-links">
+  <%= link_to "Home", parks_path %>
+  </div>
+</nav>
+
+<div style="width: 100%; height: 92vh;"
+  data-controller="map"
+  data-map-markers-value="<%= @markers.to_json %>"
+  data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+</div>

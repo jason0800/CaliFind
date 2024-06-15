@@ -1,3 +1,13 @@
+// Misc
+
+.rounded-border {
+  border-radius: 8px;
+}
+
+.margin-left {
+  margin-left: 12px;
+}
+
 // Index Cards
 
 html, body {
@@ -22,7 +32,7 @@ a {
 }
 
 .card {
-  width: 550px;
+  width: 350px;
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
   margin: 20px;
@@ -30,17 +40,25 @@ a {
 }
 
 .card img {
-  height: 600px;
+  height: 300px;
   object-fit: cover;
 }
 
 .card-content {
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin: 20px 20px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
 }
 
 .card:hover {

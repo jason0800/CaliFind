@@ -1,6 +1,10 @@
 <nav class="navbar">
-  <h2><%= @park.name %></h2>
+  <a href="/">
+    <%= image_tag "califindlogo.png", alt: 'califind logo', style: "width:170px; margin-left: 10px;" %>
+  </a>
 </nav>
+
+<h2><%= @park.name %></h2>
 
 <div class="image-card">
   <img src="<%= @park.img_url %>">

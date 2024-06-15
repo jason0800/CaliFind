@@ -1,21 +1,37 @@
 <nav class="navbar">
-  <h2>All Calisthenics Parks</h2>
+  <%= image_tag "califindlogo.png", alt: 'califind logo', style: "width:170px; margin-left: 10px;" %>
+  <div class="nav-links">
+    <%= link_to "Map", maps_path %>
+  </div>
 </nav>
 
-<div class="card-container">
-  <% @parks.each do |park| %>
-    <a href="/parks/<%= park.id %>"class="card" target="_blank">
-      <img src="<%= park.img_url %>">
-      <div class="card-content">
-        <h4><strong><%= park.name %></strong></h4>
-        <h5><%= park.location %></h5>
-      </div>
-    </a>
-  <% end %>
+<div class="container rounded">
+  <div class="row justify-content-center">
+    <div class="col-sm-8 my-3">
+      <%= form_with url: parks_path, method: :get, class: "d-flex" do %>
+        <%= text_field_tag :query,
+              params[:query],
+              class: "form-control rounded-border",
+              placeholder: "Type a keyword"
+          %>
+        <%= submit_tag "Search", name: "", class: "btn btn-primary rounded-border margin-left"%>
+      <% end %>
+    </div>
+  </div>
 </div>
 
-<div style="width: 100%; height: 600px;"
-  data-controller="map"
-  data-map-markers-value="<%= @markers.to_json %>"
-  data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+<div class="card-container">
+  <% if @parks.any? %>
+    <% @parks.each do |park| %>
+      <a href="/parks/<%= park.id %>"class="card" target="_blank">
+        <img src="<%= park.img_url %>">
+        <div class="card-content">
+          <h5><strong><%= park.name %></strong></h5>
+          <h6><%= park.location %></h6>
+        </div>
+      </a>
+    <% end %>
+  <% else %>
+    <p>Sorry bro! No calisthenics parks found 😢</p>
+  <% end %>
 </div>
