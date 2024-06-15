@@ -18,6 +18,8 @@ Park.create!(
   location: "888 Collins St, Docklands VIC 3008",
   description: "Dipping bars and pull-up bars. No rings.",
   img_url: "https://i0.wp.com/stadiumbase.com/wp-content/uploads/2020/04/Docklands-Outdoor-Gym2.jpg?fit=1200%2C675&ssl=1",
+  img_url_2: "https://www.larkindustries.com.au/wp/wp-content/uploads/2018/03/Docklands-1.jpg",
+  img_url_3: "https://scontent.fmel10-1.fna.fbcdn.net/v/t1.15752-9/448193763_1212060240153826_1851068196004796820_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=fUEg8wnY9sUQ7kNvgE3KEra&_nc_ht=scontent.fmel10-1.fna&oh=03_Q7cD1QGsp1_XR7C30obmVn3yxrbd6myD1sIXMaCcpp4_pKNllA&oe=6694C223",
   latitude: -37.820830,
   longitude: 144.941111
 )

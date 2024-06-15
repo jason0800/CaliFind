@@ -96,4 +96,9 @@ h6 {
 
 .park {
   width: 500px;
+  box-shadow: none;
+}
+
+.park:hover, .park:not(:hover) {
+  animation: none;
 }
