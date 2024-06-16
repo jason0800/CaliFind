@@ -111,4 +111,37 @@ Park.create!(
   longitude: 145.043536
 )
 
+Park.create!(
+  name: "All Nations Outdoor Gym",
+  location: "9 Munro St, Northcote VIC 3070",
+  description: "The equipment includes pull-up bars, dipping bars, and other machine equipment.",
+  img_url: "https://scontent.fmel10-1.fna.fbcdn.net/v/t1.15752-9/448104676_902551124964630_7796779726621997604_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lo26-HvqiBwQ7kNvgH8py-_&_nc_ht=scontent.fmel10-1.fna&oh=03_Q7cD1QGYEy4LVk0yUYe0OwzpPst8OScZT7FP3FQuh6FWwpz7Aw&oe=6694E295",
+  img_url_2: "https://scontent.fmel10-1.fna.fbcdn.net/v/t1.15752-9/447902039_1215436152806487_2936720886628622139_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CdOPhCOZlMMQ7kNvgHczHBK&_nc_ht=scontent.fmel10-1.fna&oh=03_Q7cD1QG-aZeOlTJiLZ_n_ezElZrnAt1VOoVAx3WrrBxH3ai83Q&oe=6694D48A",
+  img_url_3: "https://scontent.fmel10-1.fna.fbcdn.net/v/t1.15752-9/448427765_513699631531038_8995072107500754023_n.png?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XknoKWMQ3nMQ7kNvgERDtmY&_nc_ht=scontent.fmel10-1.fna&oh=03_Q7cD1QHs4OMzJPKS6V5IEjRzEnJ8vTgEeoSQKYe0d-U3JaggzA&oe=6694F08F",
+  latitude: -37.768969,
+  longitude: 145.006615
+)
+
+Park.create!(
+  name: "Beauty Park Outdoor Gym",
+  location: "5 Park St, Frankston VIC 3199",
+  description: "The equipment includes pull-up bars and other machine equipment.",
+  img_url: "https://scontent.fmel10-1.fna.fbcdn.net/v/t1.15752-9/446018408_284555084739917_8908179636632341468_n.png?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=l7qtZm8peUgQ7kNvgE7BYDa&_nc_ht=scontent.fmel10-1.fna&oh=03_Q7cD1QGxtgBmJj6TcIL_ozeEVUQyDDMKjiru1agKJ9zpjIXqBg&oe=6695B961",
+  img_url_2: "https://scontent.fmel10-1.fna.fbcdn.net/v/t1.15752-9/448244731_1360907744588219_7263082118922312560_n.png?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mClEizwjEfIQ7kNvgElKYUU&_nc_ht=scontent.fmel10-1.fna&oh=03_Q7cD1QFOBKTVIGKF-UuP0Lnks1D40j7as-1RtakhHXt0xs7lag&oe=6695AD15",
+  img_url_3: "https://scontent.fmel10-1.fna.fbcdn.net/v/t1.15752-9/446066398_429786176636007_5321862743496665380_n.png?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oYG8Lrn0YLcQ7kNvgGluthb&_nc_ht=scontent.fmel10-1.fna&oh=03_Q7cD1QErZ4_9ahQfUdt7QSXJ9kRNrS5qtVFTrocAIuEhYD9OGg&oe=6695C234",
+  latitude: -38.148700,
+  longitude: 145.123197
+)
+
+Park.create!(
+  name: "Mayeer Park Outdoor Gym",
+  location: "Leinster Grove &, Normanby Ave, Thornbury VIC 3071",
+  description: "The equipment includes pull-up bars and other machine equipment. It is close to Northcote Public Golf Course.",
+  img_url: "https://scontent.fmel10-1.fna.fbcdn.net/v/t1.15752-9/446079649_1195451788464036_776217909829039187_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qKDclsZ6GJwQ7kNvgGYe-Wo&_nc_ht=scontent.fmel10-1.fna&oh=03_Q7cD1QFmAaHUUHcT0WGy2eX0b60EyjC62fEYK2-fdqED9E4ZqQ&oe=6695BE5C",
+  img_url_2: "https://scontent.fmel10-1.fna.fbcdn.net/v/t1.15752-9/448314123_787417690225134_5150872725966657898_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CAUdacvA26MQ7kNvgHuWfFs&_nc_ht=scontent.fmel10-1.fna&oh=03_Q7cD1QE0qZSgU5as-UG-9Os23w7GQ3ycP7dFwpAVtuUWfUEjEQ&oe=6695B6A7",
+  img_url_3: "https://scontent.fmel10-1.fna.fbcdn.net/v/t1.15752-9/446045597_1608457349888710_3343282182384184289_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=eBOp0GqdW-8Q7kNvgFtHNL3&_nc_ht=scontent.fmel10-1.fna&oh=03_Q7cD1QEU1e3oEtYyLTlOapE5MTtFnC88kM05BRbPwBkbvdXZlA&oe=6695C6FA",
+  latitude: -37.758410,
+  longitude: 144.987692
+)
+
 puts "parks created"
